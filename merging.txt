@@ -1,0 +1,26 @@
+Want to merging with branching that I use temporary to not create any extra file:
+
+
+*git branch 'file'
+*git checkout 'file'  //With this switching part can be done.
+*make some modification as per your choice with the existing file.
+*git status //Optional to check
+*git add 'file' //Staging the file yeeah;)
+*make the commit , name then -m (message)
+*git status //Optional
+
+=> Going back to master class to just override temporary things into the longer one.
+
+*git checkout master //switching from temporary branch to master
+*git status //Optional , but better to check before and after merging files on it.
+*git merge 'file' //Do not forget to do this once youre in master class +++
+
+
+=> Once merging has done, you can delete the temporary branch that created to override codes.
+
+*git branch -d 'file'
+*git status //Now perhaps you're advised to push the master branch into the origin server, aren't you??
+
+**git push origin master
+with this, merging part is done, go back to the origin and check the commits navigation.
+Regards,
