@@ -32,8 +32,8 @@ namespace ScootAllen
             }
 
             result = result / grades.Count;
-            Console.WriteLine($"Lowest Grade is {lowGrade}");
-            Console.WriteLine($"Highest Grade is {highGrade}");
+            //Console.WriteLine($"Lowest Grade is {lowGrade}");
+            //Console.WriteLine($"Highest Grade is {highGrade}");
             Console.WriteLine($"Average : {result}");
 
         }
